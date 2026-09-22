@@ -1,0 +1,10 @@
+# Netlify config - South West Rise Basketball
+# Static site, no build step. Netlify serves the repo root.
+[build]
+  publish = "."
+
+# Long cache for images and fonts (they are versioned by filename)
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

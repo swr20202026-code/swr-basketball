@@ -1,0 +1,48 @@
+backend:
+  name: git-gateway
+  branch: main            # change to master if that is your default branch
+
+media_folder: images/uploads     # where uploaded photos are stored in the repo
+public_folder: /images/uploads   # the path used on the live site
+
+collections:
+  - name: fixtures
+    label: Fixtures
+    files:
+      - name: fixtures
+        label: Fixtures list
+        file: content/fixtures.json
+        fields:
+          - label: Fixtures
+            name: items
+            widget: list
+            summary: "{{fields.date}}: {{fields.home}} vs {{fields.away}}"
+            fields:
+              - { label: Date, name: date, widget: string, hint: "Format: day date month, e.g. Sat 27 Sep" }
+              - { label: Home team, name: home, widget: string }
+              - { label: Away team, name: away, widget: string }
+              - { label: Competition, name: comp, widget: string, hint: "e.g. Met League, Surrey League, Friendly" }
+              - { label: Tip-off time, name: time, widget: string, hint: "e.g. 6:00pm" }
+              - { label: Home or Away, name: place, widget: select, options: [Home, Away], default: Home }
+
+  - name: gallery
+    label: Scrimmage photos
+    files:
+      - name: gallery
+        label: Photos
+        file: content/gallery.json
+        fields:
+          - label: Photos
+            name: items
+            widget: list
+            field: { label: Photo, name: image, widget: image }
+
+  - name: settings
+    label: Site details
+    files:
+      - name: contact
+        label: Contact
+        file: content/settings.json
+        fields:
+          - { label: Contact email, name: email, widget: string }
+          - { label: "Instagram handle (without @)", name: instagram, widget: string }
