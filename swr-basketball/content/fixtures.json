@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "date": "Sat 27 Sep", "home": "SWR Men's", "away": "Riverside Hawks", "comp": "Met League", "time": "6:00pm", "place": "Home" },
+    { "date": "Sat 04 Oct", "home": "Metro Kings", "away": "SWR Men's", "comp": "Met League", "time": "4:30pm", "place": "Away" },
+    { "date": "Sun 12 Oct", "home": "SWR Juniors", "away": "Southside Academy", "comp": "Friendly", "time": "11:00am", "place": "Home" },
+    { "date": "Sat 18 Oct", "home": "SWR Men's", "away": "Coastline Ballers", "comp": "Met League", "time": "6:00pm", "place": "Home" }
+  ]
+}
