@@ -177,4 +177,8 @@
   .tagline p{color:var(--muted);font-size:clamp(14px,2.2vw,17px);max-width:48ch;margin:0 auto;}
   .tagline .tagline-big{font-family:var(--disp);font-weight:800;text-transform:uppercase;color:#fff;font-size:clamp(20px,3.8vw,32px);letter-spacing:.02em;margin-top:12px;line-height:1.05;}
   .tagline .tagline-big span{color:var(--orange);}
+  .run-steps{margin-top:26px;}
+  .booking-embed{margin-top:28px;border:1px solid var(--line-strong);border-radius:16px;overflow:hidden;background:var(--panel);min-height:640px;box-shadow:0 24px 60px -30px rgba(47,98,216,.35);}
+  .booking-embed #sbw_o35q1w{width:100%;}
+  .booking-embed iframe{width:100%!important;min-height:640px;border:0;display:block;}
   :focus-visible{outline:2px solid var(--blue-bright);outline-offset:3px;border-radius:4px;}
