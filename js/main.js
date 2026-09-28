@@ -47,3 +47,26 @@ var btn = document.querySelector('.menu-btn');
     if(d.instagram){ var ig=document.querySelector('.social a.chip'); if(ig){ ig.href='https://instagram.com/'+d.instagram; ig.textContent='Instagram @'+d.instagram; } }
   });
 })();
+
+
+/* ---- Booking pop-up (SimplyBook widget in an overlay) ---- */
+(function(){
+  var btn = document.getElementById('sbBookBtn');
+  var modal = document.getElementById('sbModal');
+  if(!btn || !modal) return;
+  var loaded = false;
+  function loadWidget(){
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = '//widget.simplybook.it/v2/widget/widget.js';
+    s.onload = function(){
+      new SimplybookWidget({"widget_type":"iframe","url":"https://swrbasketball.simplybook.it","theme":"concise","theme_settings":{"timeline_hide_unavailable":"1","hide_past_days":"0","timeline_show_end_time":"0","timeline_modern_display":"as_slots","light_font_color":"#f27f2b","sb_secondary_base":"#050405","sb_base_color":"#f27f2b","display_item_mode":"block","booking_nav_bg_color":"#050405","sb_review_image":"","dark_font_color":"#eef1f7","btn_color_1":"#f27f2b","sb_company_label_color":"#f27f2b","hide_img_mode":"1","show_sidebar":"1","sb_busy":"#c7b3b3","sb_available":"#d6ebff"},"timeline":"modern","datepicker":"top_calendar","is_rtl":false,"app_config":{"clear_session":0,"allow_switch_to_ada":0,"predefined":[]},"container_id":"sbw_o35q1w"});
+    };
+    document.head.appendChild(s);
+  }
+  function open(){ modal.classList.add('open'); modal.setAttribute('aria-hidden','false'); document.body.style.overflow='hidden'; if(!loaded){ loaded=true; loadWidget(); } }
+  function close(){ modal.classList.remove('open'); modal.setAttribute('aria-hidden','true'); document.body.style.overflow=''; }
+  btn.addEventListener('click', open);
+  modal.addEventListener('click', function(e){ if(e.target.hasAttribute('data-sb-close')) close(); });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && modal.classList.contains('open')) close(); });
+})();
