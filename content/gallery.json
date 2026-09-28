@@ -1,1 +1,7 @@
-{ "items": ["images/scrimmage-1.webp", "images/scrimmage-2.webp", "images/scrimmage-3.webp"] }
+{
+  "items": [
+    { "image": "images/scrimmage-1.webp", "caption": "Scrimmage 1" },
+    { "image": "images/scrimmage-2.webp", "caption": "Scrimmage 2" },
+    { "image": "images/scrimmage-3.webp", "caption": "Scrimmage 3" }
+  ]
+}

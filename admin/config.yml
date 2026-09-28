@@ -34,8 +34,23 @@ collections:
         fields:
           - label: Photos
             name: items
+            label_singular: Photo
             widget: list
-            field: { label: Photo, name: image, widget: image }
+            summary: "{{fields.caption}}"
+            hint: "Add as many as you like. The first 6 show on the site."
+            fields:
+              - { label: Photo, name: image, widget: image }
+              - { label: "Caption / name (so you can tell them apart)", name: caption, widget: string, required: false }
+
+  - name: teams
+    label: Team photos
+    files:
+      - name: teams
+        label: "Men's team & Juniors"
+        file: content/teams.json
+        fields:
+          - { label: "Men's team photo", name: mens, widget: image, required: false }
+          - { label: "Juniors photo", name: juniors, widget: image, required: false }
 
   - name: settings
     label: Site details
@@ -46,3 +61,10 @@ collections:
         fields:
           - { label: Contact email, name: email, widget: string }
           - { label: "Instagram handle (without @)", name: instagram, widget: string }
+
+      - name: runs
+        label: "Run details (price)"
+        file: content/runs.json
+        fields:
+          - { label: "Price per player", name: price, widget: string, hint: "Just the amount, e.g. 7 or 7.50. The \u00a3 is added automatically." }
+          - { label: "Minimum players needed", name: minimum, widget: number, value_type: int, default: 10, hint: "Shown as 'Minimum X players to run'." }

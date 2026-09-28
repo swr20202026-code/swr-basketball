@@ -41,6 +41,29 @@ var btn = document.querySelector('.menu-btn');
       }).join('');
     }
   });
+  load('content/teams.json').then(function(d){
+    if(!d) return;
+    function setPhoto(sel, src){
+      if(!src) return;
+      var box = document.querySelector(sel);
+      if(box) box.innerHTML = '<img src="'+esc(src)+'" alt="">';
+    }
+    setPhoto('.team.mens .team-photo', d.mens);
+    setPhoto('.team.juniors .team-photo', d.juniors);
+  });
+  load('content/runs.json').then(function(d){
+    if(!d) return;
+    if(d.price){
+      var p = document.querySelector('.book .price');
+      if(p) p.innerHTML = '\u00a3'+esc(d.price)+'<small>/player</small>';
+    }
+    if(d.minimum){
+      var w = document.querySelector('.book .book-where');
+      if(w) w.textContent = 'Minimum '+esc(d.minimum)+' players to run';
+      var step = document.querySelector('.run-list li:nth-child(3)');
+      if(step) step.innerHTML = '<span class="dot">3</span>We need a minimum of '+esc(d.minimum)+" players. If a run doesn't go ahead, everyone who booked receives a refund.";
+    }
+  });
   load('content/settings.json').then(function(d){
     if(!d) return;
     if(d.email){ var a=document.querySelector('.card a.link'); if(a){ a.href='mailto:'+d.email; a.textContent='\u2709 '+d.email; } }
