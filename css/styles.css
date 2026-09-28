@@ -181,4 +181,13 @@
   .booking-embed{margin-top:28px;border:1px solid var(--line-strong);border-radius:16px;overflow:hidden;background:var(--panel);min-height:640px;box-shadow:0 24px 60px -30px rgba(47,98,216,.35);}
   .booking-embed #sbw_o35q1w{width:100%;}
   .booking-embed iframe{width:100%!important;min-height:640px;border:0;display:block;}
+  .sb-modal{position:fixed;inset:0;z-index:200;display:none;}
+  .sb-modal.open{display:block;}
+  .sb-modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.72);}
+  .sb-modal-box{position:relative;width:min(960px,94vw);height:min(88vh,900px);margin:6vh auto;background:var(--panel);border:1px solid var(--line-strong);border-radius:16px;overflow:hidden;box-shadow:0 40px 90px -20px rgba(0,0,0,.7);}
+  .sb-modal-box #sbw_o35q1w{width:100%;height:100%;overflow:auto;}
+  .sb-modal-box iframe{width:100%!important;height:100%!important;border:0;display:block;}
+  .sb-modal-close{position:absolute;top:8px;right:10px;z-index:3;width:40px;height:40px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:26px;line-height:38px;cursor:pointer;}
+  .sb-modal-close:hover{background:var(--orange);color:#231402;}
+  @media (max-width:640px){ .sb-modal-box{width:100vw;height:100%;margin:0;border-radius:0;border-left:0;border-right:0;} }
   :focus-visible{outline:2px solid var(--blue-bright);outline-offset:3px;border-radius:4px;}
