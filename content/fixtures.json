@@ -1,8 +1,36 @@
 {
   "items": [
-    { "date": "Sat 27 Sep", "home": "SWR Men's", "away": "Riverside Hawks", "comp": "Met League", "time": "6:00pm", "place": "Home" },
-    { "date": "Sat 04 Oct", "home": "Metro Kings", "away": "SWR Men's", "comp": "Met League", "time": "4:30pm", "place": "Away" },
-    { "date": "Sun 12 Oct", "home": "SWR Juniors", "away": "Southside Academy", "comp": "Friendly", "time": "11:00am", "place": "Home" },
-    { "date": "Sat 18 Oct", "home": "SWR Men's", "away": "Coastline Ballers", "comp": "Met League", "time": "6:00pm", "place": "Home" }
+    {
+      "place": "Home",
+      "date": "Tues 6 Oct",
+      "home": "SWR Men's II",
+      "away": "Kingston WildCats",
+      "comp": "Surrey League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Tues 13 Oct",
+      "home": "Sonics",
+      "away": "SWR Men's",
+      "comp": "Met League ",
+      "time": "19:45"
+    },
+    {
+      "place": "Away",
+      "date": "Wed 14 Oct",
+      "home": "London Patriots",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:15"
+    },
+    {
+      "place": "Home",
+      "date": "Tues 20 Oct",
+      "home": "SWR Men's II",
+      "away": "Sutton Storm",
+      "comp": "Surrey League",
+      "time": "20:30"
+    }
   ]
 }
