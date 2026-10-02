@@ -39,6 +39,246 @@
       "away": "Sutton Storm",
       "comp": "Surrey League",
       "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "Thurs 22 Oct",
+      "home": "SWR Men's",
+      "away": "UCL Knights",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Sun 1 Nov",
+      "home": "Kilburn Tigers",
+      "away": "SWR Men's",
+      "comp": "Met League",
+      "time": "09:45 AM"
+    },
+    {
+      "place": "Away",
+      "date": "Sun 1 Nov",
+      "home": "SWR JNR Basketball Club",
+      "away": "Cheam Super Kings U16",
+      "comp": "Surrey League U16s",
+      "time": "10:15 AM"
+    },
+    {
+      "place": "Away",
+      "date": "Tue 3 Nov",
+      "home": "Cobham Cobras",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:00"
+    },
+    {
+      "place": "Away",
+      "date": "Wed 18 Nov",
+      "home": "Richmond Knights Men II",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:15"
+    },
+    {
+      "place": "Home",
+      "date": "Thurs 19 Nov",
+      "home": "SWR Men's",
+      "away": "Twickenham Tigers I",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "Sat 21 Nov",
+      "home": "SWR Men's II",
+      "away": "Cagers Men",
+      "comp": "Surrey League",
+      "time": "12:30"
+    },
+    {
+      "place": "Away",
+      "date": "Wed 25 Nov",
+      "home": "Walton Sonics Men",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "19:45"
+    },
+    {
+      "place": "Away",
+      "date": "Mon 30 Nov",
+      "home": "Alleyns Basketball",
+      "away": "SWR Men's",
+      "comp": "Met League",
+      "time": "20:15"
+    },
+    {
+      "place": "Away",
+      "date": "Sun 6 Dec",
+      "home": "Cobham Cobras U16s",
+      "away": "SWR JNR Basketball Club",
+      "comp": "Surrey League U16s",
+      "time": "10:15 AM"
+    },
+    {
+      "place": "Home",
+      "date": "Tue 8 Dec",
+      "home": "SWR Men's II",
+      "away": "Oxted Rhinos Men",
+      "comp": "Surrey League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Mon 14 Dec",
+      "home": "Mitcham Falcons Men",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "19:45"
+    },
+    {
+      "place": "Away",
+      "date": "Sun 20 Dec",
+      "home": "Surrey Rams U16 Gold",
+      "away": "SWR JNR Basketball Club",
+      "comp": "Surrey League U16s",
+      "time": "13:00"
+    },
+    {
+      "place": "Home",
+      "date": "Tue 5 Jan",
+      "home": "SWR Men's II",
+      "away": "Twickenham Tigers Men",
+      "comp": "Surrey League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Mon 11 Jan ",
+      "home": "BC Green White Boys",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:00"
+    },
+    {
+      "place": "Home",
+      "date": "Thurs 14 Jan",
+      "home": "SWR Mens",
+      "away": "Crystal Palace Foxes (Div 1)",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Mon 18 Jan",
+      "home": "Epsom Rockets Men",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:15"
+    },
+    {
+      "place": "Away",
+      "date": "Wed 20 Jan",
+      "home": "Cobham Cobras Men Met",
+      "away": "SWR Men's",
+      "comp": "Met League",
+      "time": "19:45"
+    },
+    {
+      "place": "Home",
+      "date": "Thurs 4 Feb",
+      "home": "SWR Men's",
+      "away": "Streatham Sonics ",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Mon 8 Feb",
+      "home": "UCL Knights ",
+      "away": "SWR Men's",
+      "comp": "Met League",
+      "time": "20:00 "
+    },
+    {
+      "place": "Away",
+      "date": "Thurs 11 Feb",
+      "home": "Oxted Rhinos Men",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:00"
+    },
+    {
+      "place": "Home",
+      "date": "Sat 13 Feb",
+      "home": "SWR Men's II",
+      "away": "Cheam Chargers Men",
+      "comp": "Surrey League",
+      "time": "12:30"
+    },
+    {
+      "place": "Home",
+      "date": "Tue 16 Feb",
+      "home": "SWR Men's",
+      "away": "Kilburn Tigers  Men",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "Tues 9 Mar",
+      "home": "SWR Men's II",
+      "away": "Mitcham Falcons Men",
+      "comp": "Surrey League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Sun 14 Mar",
+      "home": "Twickenham Tigers 1 ",
+      "away": "SWR Men's ",
+      "comp": "Met League",
+      "time": "12:45"
+    },
+    {
+      "place": "Home",
+      "date": "Tue 16 Mar",
+      "home": "SWR Men's II",
+      "away": "Cobham Cobras Men",
+      "comp": "Surrey League ",
+      "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "Thurs 18 March",
+      "home": "SWR Men's",
+      "away": "Alleyns Basketball",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "Tue 6 Apr",
+      "home": "Cagers Men",
+      "away": "SWR Men's II",
+      "comp": "Surrey League ",
+      "time": "20:15"
+    },
+    {
+      "place": "Away",
+      "date": "Sun 11 Apr",
+      "home": "Twickenham Tigers Men",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "12:45"
+    },
+    {
+      "place": "Away",
+      "date": "Tue 13 Apr",
+      "home": "London City Stags",
+      "away": "SWR Men's",
+      "comp": "Met League",
+      "time": "20:15"
     }
   ]
 }
