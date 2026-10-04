@@ -191,4 +191,6 @@
   .sb-modal-close:hover{background:var(--orange);color:#231402;}
   @media (max-width:640px){ .sb-modal-box{width:100vw;height:100%;margin:0;border-radius:0;border-left:0;border-right:0;} }
   .team-photo img{width:100%;height:100%;object-fit:cover;border-radius:10px;display:block;}
+  .book-venue{color:var(--muted);font-size:14px;margin-top:4px;}
+  .book-venue[hidden]{display:none;}
   :focus-visible{outline:2px solid var(--blue-bright);outline-offset:3px;border-radius:4px;}

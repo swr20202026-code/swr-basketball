@@ -57,6 +57,11 @@ var btn = document.querySelector('.menu-btn');
       var p = document.querySelector('.book .price');
       if(p) p.innerHTML = '\u00a3'+esc(d.price)+'<small>/player</small>';
     }
+    var v = document.querySelector('.book .book-venue');
+    if(v){
+      if(d.location){ v.textContent = d.location; v.hidden = false; }
+      else { v.hidden = true; }
+    }
     if(d.minimum){
       var w = document.querySelector('.book .book-where');
       if(w) w.textContent = 'Minimum '+esc(d.minimum)+' players to run';

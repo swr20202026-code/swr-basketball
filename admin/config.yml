@@ -68,3 +68,4 @@ collections:
         fields:
           - { label: "Price per player", name: price, widget: string, hint: "Just the amount, e.g. 7 or 7.50. The \u00a3 is added automatically." }
           - { label: "Minimum players needed", name: minimum, widget: number, value_type: int, default: 10, hint: "Shown as 'Minimum X players to run'." }
+          - { label: "Location / venue", name: location, widget: string, required: false, hint: "e.g. Harris Academy Sports Hall, Croydon. Leave blank to hide it." }
