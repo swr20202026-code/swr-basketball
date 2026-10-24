@@ -1,36 +1,148 @@
 {
   "items": [
     {
-      "date": "Sat 27 Sep",
-      "home": "SWR Men's",
-      "away": "Riverside Hawk",
-      "comp": "Met League",
-      "time": "6:00pm",
-      "place": "Home"
+      "place": "Away",
+      "date": "27 September 26",
+      "home": "Cagers Phenom U16 - 40",
+      "away": "SWR Jnr's - 66",
+      "comp": "Surrey CVL",
+      "time": "14:15"
     },
     {
-      "date": "Sat 04 Oct",
-      "home": "Metro Kings",
+      "place": "Home",
+      "date": "6 October 26",
+      "home": "SWR Men's II - 71",
+      "away": "Kingston Wildcats - 51",
+      "comp": "Surrey League",
+      "time": "20:30 "
+    },
+    {
+      "place": "Home",
+      "date": "11 October 26",
+      "home": "SWR Jnr's - 91",
+      "away": "LCB U16 - 102",
+      "comp": "Surrey CVL",
+      "time": "14:00"
+    },
+    {
+      "place": "Away",
+      "date": "13 October 26",
+      "home": "Streatham Sonics - 48",
+      "away": "SWR Men's - 68",
+      "comp": "Met League",
+      "time": "19:45"
+    },
+    {
+      "place": "Away",
+      "date": "14 October 26",
+      "home": "London Patriots - 83",
+      "away": "SWR Men's II - 75",
+      "comp": "Surrey League",
+      "time": "20:15"
+    },
+    {
+      "place": "Home",
+      "date": "20 October 26",
+      "home": "SWR Men's II - 70",
+      "away": "Sutton Storm - 53",
+      "comp": "Surrey League",
+      "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "22 October 26",
+      "home": "SWR Men's - 73",
+      "away": "UCL - 70",
+      "comp": "Met League",
+      "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "01 November 26",
+      "home": "SWR Jnr's",
+      "away": "Cheam Super Kings U16",
+      "comp": "Surrey CVL",
+      "time": "10:15"
+    },
+    {
+      "place": "Away",
+      "date": "1 November 26",
+      "home": "Kilburn",
       "away": "SWR Men's",
       "comp": "Met League",
-      "time": "4:30pm",
-      "place": "Away"
+      "time": "9:45"
     },
     {
-      "date": "Sun 12 Oct",
-      "home": "SWR Juniors",
-      "away": "Southside Academy",
-      "comp": "Friendly",
-      "time": "11:00am",
-      "place": "Home"
+      "place": "Away",
+      "date": "3 November 26",
+      "home": "Cobras",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:00"
     },
     {
-      "date": "Sat 18 Oct",
+      "place": "Away",
+      "date": "18 November 26",
+      "home": "Richmond Knights",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "20:15"
+    },
+    {
+      "place": "Home",
+      "date": "19 November 26",
       "home": "SWR Men's",
-      "away": "Coastline Ballers",
+      "away": "Twickenham Tigers",
       "comp": "Met League",
-      "time": "6:00pm",
-      "place": "Home"
+      "time": "20:30"
+    },
+    {
+      "place": "Home",
+      "date": "21 November 26",
+      "home": "SWR Men's II",
+      "away": "Cagers",
+      "comp": "Surrey League",
+      "time": "12:30"
+    },
+    {
+      "place": "Away",
+      "date": "25 November 26",
+      "home": "Walton Sonics",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "19:45"
+    },
+    {
+      "place": "Away",
+      "date": "30 November 26",
+      "home": "SWR Men's ",
+      "away": "Alleyns",
+      "comp": "Met League",
+      "time": "20:15"
+    },
+    {
+      "place": "Away",
+      "date": "6 December 26",
+      "home": "Cobras U16",
+      "away": "SWR Jnr's",
+      "comp": "Surrey CVL",
+      "time": "10:15"
+    },
+    {
+      "place": "Home",
+      "date": "8 December 26",
+      "home": "SWR Men's II",
+      "away": "Oxted",
+      "comp": "Surrey League",
+      "time": "20:30"
+    },
+    {
+      "place": "Away",
+      "date": "14 December 26",
+      "home": "Mitcham Falcons",
+      "away": "SWR Men's II",
+      "comp": "Surrey League",
+      "time": "19:45"
     }
   ]
 }
