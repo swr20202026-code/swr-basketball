@@ -1,1 +1,4 @@
-{ "mens": "", "juniors": "" }
+{
+  "mens": "/images/uploads/mens.jpg",
+  "juniors": ""
+}
