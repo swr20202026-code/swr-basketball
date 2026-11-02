@@ -7,23 +7,27 @@ public_folder: /images/uploads   # the path used on the live site
 
 collections:
   - name: fixtures
-    label: Fixtures
+    label: Fixtures & results
     files:
       - name: fixtures
-        label: Fixtures list
+        label: Fixtures & results list
         file: content/fixtures.json
         fields:
-          - label: Fixtures
+          - label: Games
             name: items
+            label_singular: Game
             widget: list
-            summary: "{{fields.date}}: {{fields.home}} vs {{fields.away}}"
+            summary: "{{fields.date}}: {{fields.home}} {{fields.homeScore}} vs {{fields.away}} {{fields.awayScore}}"
+            hint: "Add every game here. Once you fill in both scores, the game moves from Fixtures to Results on the site automatically."
             fields:
-              - { label: Date, name: date, widget: string, hint: "Format: day date month, e.g. Sat 27 Sep" }
-              - { label: Home team, name: home, widget: string }
-              - { label: Away team, name: away, widget: string }
-              - { label: Competition, name: comp, widget: string, hint: "e.g. Met League, Surrey League, Friendly" }
-              - { label: Tip-off time, name: time, widget: string, hint: "e.g. 6:00pm" }
+              - { label: Date, name: date, widget: string, hint: "e.g. 27 September 26" }
+              - { label: Home team, name: home, widget: string, hint: "Team name only, no score" }
+              - { label: Away team, name: away, widget: string, hint: "Team name only, no score" }
+              - { label: Competition, name: comp, widget: string, hint: "e.g. Met League, Surrey League, Surrey CVL, Friendly" }
+              - { label: Tip-off time, name: time, widget: string, hint: "e.g. 20:30" }
               - { label: Home or Away, name: place, widget: select, options: [Home, Away], default: Home }
+              - { label: Home score, name: homeScore, widget: string, required: false, hint: "Leave blank until the game is played" }
+              - { label: Away score, name: awayScore, widget: string, required: false, hint: "Leave blank until the game is played" }
 
   - name: gallery
     label: Scrimmage photos
@@ -52,6 +56,45 @@ collections:
           - { label: "Men's team photo", name: mens, widget: image, required: false }
           - { label: "Juniors photo", name: juniors, widget: image, required: false }
 
+  - name: shop
+    label: Shop (merch)
+    files:
+      - name: shop
+        label: Merch
+        file: content/shop.json
+        fields:
+          - { label: "Intro text", name: intro, widget: text, required: false, hint: "Short line under the Shop heading" }
+          - { label: "Collection / delivery note", name: note, widget: string, required: false, hint: "e.g. Collect at any run or training session. Shown under the products." }
+          - label: Products
+            name: items
+            label_singular: Product
+            widget: list
+            summary: "{{fields.name}} (£{{fields.price}})"
+            hint: "The Shop section only appears on the site once there is at least one product."
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Price, name: price, widget: string, hint: "Just the amount, e.g. 25. The £ is added automatically." }
+              - { label: Description, name: description, widget: text, required: false }
+              - label: Photos
+                name: images
+                widget: list
+                required: false
+                hint: "The first photo is the main one. Customers can click to see them all large."
+                field: { label: Photo, name: image, widget: image }
+              - { label: "SumUp payment link", name: link, widget: string, required: false, hint: "Paste the reusable SumUp payment link. Used when there are no sizes, or for any size without its own link." }
+              - label: Sizes
+                name: sizes
+                label_singular: Size
+                widget: list
+                required: false
+                summary: "{{fields.size}}"
+                hint: "Optional. Best to make one SumUp link per size (put the size in the link's description) so you know what was ordered."
+                fields:
+                  - { label: Size, name: size, widget: string, hint: "e.g. S, M, L, XL, Age 9-10" }
+                  - { label: "SumUp payment link for this size", name: link, widget: string, required: false }
+                  - { label: "Sold out", name: soldout, widget: boolean, default: false, required: false }
+              - { label: "Sold out (whole product)", name: soldout, widget: boolean, default: false, required: false }
+
   - name: settings
     label: Site details
     files:
@@ -66,6 +109,6 @@ collections:
         label: "Run details (price)"
         file: content/runs.json
         fields:
-          - { label: "Price per player", name: price, widget: string, hint: "Just the amount, e.g. 7 or 7.50. The \u00a3 is added automatically." }
+          - { label: "Price per player", name: price, widget: string, hint: "Just the amount, e.g. 7 or 7.50. The £ is added automatically." }
           - { label: "Minimum players needed", name: minimum, widget: number, value_type: int, default: 10, hint: "Shown as 'Minimum X players to run'." }
           - { label: "Location / venue", name: location, widget: string, required: false, hint: "e.g. Harris Academy Sports Hall, Croydon. Leave blank to hide it." }

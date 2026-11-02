@@ -25,6 +25,8 @@
       <a href="#runs">The Runs</a>
       <a href="#club">The Club</a>
       <a href="#fixtures">Fixtures</a>
+      <a href="#results" id="navResults" hidden>Results</a>
+      <a href="#shop" id="navShop" hidden>Shop</a>
       <a href="#contact">Contact</a>
       <a class="nav-cta" href="#runs">Book a run</a>
     </nav>
@@ -82,9 +84,9 @@
       </div>
 
       <div class="photo-row">
-        <div class="photo"><img src="images/scrimmage-1.webp" alt="South West Runs session"></div>
-        <div class="photo"><img src="images/scrimmage-2.webp" alt="South West Runs session"></div>
-        <div class="photo"><img src="images/scrimmage-3.webp" alt="South West Runs session"></div>
+        <div class="photo"><img src="images/scrimmage-1.webp" alt="South West Runs session" data-zoom data-group="runs"></div>
+        <div class="photo"><img src="images/scrimmage-2.webp" alt="South West Runs session" data-zoom data-group="runs"></div>
+        <div class="photo"><img src="images/scrimmage-3.webp" alt="South West Runs session" data-zoom data-group="runs"></div>
       </div>
     </div>
   </section>
@@ -122,29 +124,29 @@
   <section id="fixtures" class="sec-club" style="border-top:none;padding-top:0;">
     <div class="wrap">
       <h2 class="sec-title">Fixtures</h2>
-      <p class="sec-lead" style="margin-bottom:24px;">Upcoming games. Check back for results and the full season schedule.</p>
-      <div class="fx">
-        <div class="fx-row">
-          <div class="fx-date">Sat<span>27</span>Sep</div>
-          <div class="fx-match">SWR Men's vs Riverside Hawks<small>League &middot; 6:00pm tip-off</small></div>
-          <div class="fx-where home">Home</div>
-        </div>
-        <div class="fx-row">
-          <div class="fx-date">Sat<span>04</span>Oct</div>
-          <div class="fx-match">Metro Kings vs SWR Men's<small>League &middot; 4:30pm tip-off</small></div>
-          <div class="fx-where away">Away</div>
-        </div>
-        <div class="fx-row">
-          <div class="fx-date">Sun<span>12</span>Oct</div>
-          <div class="fx-match">SWR Juniors vs Southside Academy<small>Friendly &middot; 11:00am tip-off</small></div>
-          <div class="fx-where home">Home</div>
-        </div>
-        <div class="fx-row">
-          <div class="fx-date">Sat<span>18</span>Oct</div>
-          <div class="fx-match">SWR Men's vs Coastline Ballers<small>League &middot; 6:00pm tip-off</small></div>
-          <div class="fx-where home">Home</div>
-        </div>
+      <p class="sec-lead" style="margin-bottom:24px;">Upcoming games for the Men's, Men's II and Juniors.</p>
+      <div class="fx" id="fxList">
+        <div class="fx-empty">Fixtures loading…</div>
       </div>
+    </div>
+  </section>
+
+  <section id="results" class="sec-club" style="border-top:none;padding-top:0;" hidden>
+    <div class="wrap">
+      <h2 class="sec-title">Results</h2>
+      <p class="sec-lead" style="margin-bottom:24px;">Latest scores, most recent first.</p>
+      <div class="fx" id="resList"></div>
+      <button class="btn btn-ghost fx-more" id="resMore" type="button" hidden>Show all results</button>
+    </div>
+  </section>
+
+  <!-- ===================== SHOP ===================== -->
+  <section id="shop" class="sec-shop" hidden>
+    <div class="wrap">
+      <h2 class="sec-title">Shop</h2>
+      <p class="sec-lead" id="shopIntro" style="margin-bottom:0;">Rep the club. Kit and merch from South West Rise.</p>
+      <div class="shop-grid" id="shopGrid"></div>
+      <p class="shop-note" id="shopNote" hidden></p>
     </div>
   </section>
 
@@ -176,6 +178,17 @@
       <button class="sb-modal-close" type="button" aria-label="Close booking" data-sb-close>&times;</button>
       <div id="sbw_o35q1w"></div>
     </div>
+  </div>
+
+  <!-- Photo lightbox -->
+  <div class="lb" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lb-btn lb-close" type="button" aria-label="Close photo">&times;</button>
+    <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">&#8249;</button>
+    <figure class="lb-fig">
+      <img class="lb-img" alt="">
+      <figcaption class="lb-cap"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" type="button" aria-label="Next photo">&#8250;</button>
   </div>
 
 </main>
