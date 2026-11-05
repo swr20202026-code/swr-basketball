@@ -545,6 +545,27 @@
           "link": "https://pay.sumup.com/b2c/QY1IYD28"
         }
       ]
+    },
+    {
+      "soldout": false,
+      "name": "SWR REP YOUR FLAG KNIT BEANIE",
+      "description": "REP YOUR FLAG. REP YOUR ROOTS. REP YOUR CULTURE.\n\nStay warm while representing your heritage with the SouthWestRuns Rep Your Flag Knit Beanie!\n\nFeaturing our signature SWR basketball logo in your chosen country's flag colours, this beanie brings together national pride, basketball culture and everyday streetwear.\n\nOur Jamaican edition proudly showcases the iconic black, green and gold colours, celebrating Jamaican heritage, identity and culture.\n\nWhether you're representing Jamaica, Ghana, Nigeria, Barbados, England or anywhere else in the world, wear your roots with pride!\n\nPerfect for basketball training, supporting your team, winter outings or simply adding a touch of culture to your everyday style.\n\nMore than just a winter hat, it's a celebration of where you come from and the SWR community that brings us together.\n\n🌍 YOUR COUNTRY. YOUR FLAG. YOUR PRIDE.\n\n🧢 PRODUCT FEATURES\n\n• Classic black knitted beanie\n• Comfortable folded cuff design\n• SWR basketball logo patch on the front\n• Custom logo colours inspired by your chosen national flag\n• Ideal for colder weather and everyday streetwear\n• Available in adult and kids' sizes, subject to availability",
+      "images": [
+        "/images/uploads/swr-jamaican-basketball-beanie.png"
+      ],
+      "price": "18",
+      "sizes": [
+        {
+          "soldout": false,
+          "size": "Adult - one size fits all",
+          "link": "https://pay.sumup.com/b2c/Q0W3C2EU"
+        },
+        {
+          "soldout": false,
+          "size": "Kids Beanie - 3 -8 yrs ",
+          "link": "https://pay.sumup.com/b2c/Q0W3C2EU"
+        }
+      ]
     }
   ]
 }
