@@ -154,6 +154,23 @@
         "/images/uploads/1-swr-jamaica-logo-black-t-shirt.png"
       ],
       "price": "20"
+    },
+    {
+      "soldout": false,
+      "name": "SWR MAP EDITION T-SHIRT",
+      "price": "20",
+      "description": "SWR MAP EDITION T-SHIRT – REP YOUR AREA. 🏀🔥\n\nSOUTH LONDON BORN. COMMUNITY DRIVEN.\n\nRepresent where it all started with the SouthWestRuns Map Edition T-Shirt!\n\nInspired by the streets, communities and basketball culture of South London, this exclusive design celebrates our roots, our journey and the community that helped build SWR.\n\nFeaturing our signature SWR branding alongside a South London-inspired map design, this T-shirt is more than just clothing. It's a statement of pride, identity and belonging.\n\nWhether you're representing Mitcham, Tooting, Croydon, Merton or anywhere across South London, wear your roots with pride.\n\nFrom the basketball court to the streets, the SWR Map Edition brings together basketball, culture and everyday streetwear.\n\n🗺️ YOUR AREA. YOUR ROOTS. YOUR STORY.",
+      "images": [
+        "/images/uploads/1-swr-2025-logo-black-t-shirt-front.png",
+        "/images/uploads/2-swr-2025-logo-black-t-shirt-back.png"
+      ],
+      "sizes": [
+        {
+          "soldout": false,
+          "size": "S",
+          "link": "https://pay.sumup.com/b2c/QCHOYCUY"
+        }
+      ]
     }
   ]
 }
