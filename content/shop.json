@@ -231,6 +231,42 @@
           "link": "https://pay.sumup.com/b2c/Q41R3HMF"
         }
       ]
+    },
+    {
+      "soldout": false,
+      "name": "SWR ORIGINAL LOGO LONG SLEEVE ",
+      "price": "28",
+      "description": "ORIGINAL STYLE. TIMELESS PRIDE. REPRESENT SWR.\n\nKeep it classic with the SouthWestRuns Original Logo Long Sleeve T-Shirt!\n\nFeaturing our original SWR logo, this long sleeve T-shirt celebrates where our journey began in 2019 and the community that continues to support us.\n\nDesigned for everyday wear, it's a great addition to your wardrobe whether you're heading to the basketball court, meeting friends or representing SWR around South London and beyond.\n\nPerfect for cooler days, casual streetwear and showing your love for the SWR family.\n\n💙🧡 REP THE BRAND. REPRESENT THE COMMUNITY.",
+      "images": [
+        "/images/uploads/2-swr-white-black-long-sleeve-top.png"
+      ],
+      "sizes": [
+        {
+          "soldout": false,
+          "size": "S",
+          "link": "https://pay.sumup.com/b2c/QMZD28F4"
+        },
+        {
+          "soldout": false,
+          "size": "M",
+          "link": "https://pay.sumup.com/b2c/QMZD28F4"
+        },
+        {
+          "soldout": false,
+          "size": "L",
+          "link": "https://pay.sumup.com/b2c/QMZD28F4"
+        },
+        {
+          "soldout": false,
+          "size": "XL",
+          "link": "https://pay.sumup.com/b2c/QMZD28F4"
+        },
+        {
+          "soldout": false,
+          "size": "XXL",
+          "link": "https://pay.sumup.com/b2c/QMZD28F4"
+        }
+      ]
     }
   ]
 }
