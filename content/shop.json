@@ -401,6 +401,67 @@
           "link": "https://pay.sumup.com/b2c/QQWTM8OU"
         }
       ]
+    },
+    {
+      "soldout": false,
+      "name": "SWR REP YOUR FLAG PULLOVER HOODIE",
+      "description": "REP YOUR FLAG. REP YOUR ROOTS. REP YOUR CULTURE.\n\nCelebrate your heritage and represent your country with the SouthWestRuns Rep Your Flag Pullover Hoodie!\n\nWhether you're representing Jamaica, Ghana, Nigeria, Barbados, England or anywhere else in the world, this hoodie allows you to showcase your national pride while representing the SWR family.\n\nCombining culture, identity, basketball and everyday streetwear, this hoodie is perfect for keeping warm while showing love for your roots.\n\nWhether you're heading to basketball training, supporting your team, meeting friends or enjoying a casual day out, represent your heritage wherever you go.\n\nMore than just a hoodie, it's a celebration of your identity, your culture and the community that brings us together.\n\n🌍 YOUR COUNTRY. YOUR FLAG. YOUR PRIDE.",
+      "price": "42",
+      "images": [
+        "/images/uploads/3-swr-jamaica-logo-black-hoodie.png"
+      ],
+      "sizes": [
+        {
+          "soldout": false,
+          "size": "S",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "M",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "L",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "XL",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "XXL",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "XXXL",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "XXXXL",
+          "link": "https://pay.sumup.com/b2c/QWYKFXH1"
+        },
+        {
+          "soldout": false,
+          "size": "7-8 yrs (M)",
+          "link": "https://pay.sumup.com/b2c/QQY38BJF"
+        },
+        {
+          "soldout": false,
+          "size": "9-11 yrs (L)",
+          "link": "https://pay.sumup.com/b2c/QQY38BJF"
+        },
+        {
+          "soldout": false,
+          "size": "12-13 yrs (XL)",
+          "link": "https://pay.sumup.com/b2c/QQY38BJF"
+        }
+      ]
     }
   ]
 }
